@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) [2020] Futurewei Technologies, Inc.
+
+ FORCE-RISCV is licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+ THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR
+ FIT FOR A PARTICULAR PURPOSE.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<registers>
+  <physical_registers>
+    <physical_register name="f0_0" index="0" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f0_1" index="0" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f1_0" index="1" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f1_1" index="1" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f2_0" index="2" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f2_1" index="2" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f3_0" index="3" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f3_1" index="3" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f4_0" index="4" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f4_1" index="4" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f5_0" index="5" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f5_1" index="5" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f6_0" index="6" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f6_1" index="6" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f7_0" index="7" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f7_1" index="7" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f8_0" index="8" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f8_1" index="8" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f9_0" index="9" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f9_1" index="9" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f10_0" index="10" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f10_1" index="10" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f11_0" index="11" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f11_1" index="11" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f12_0" index="12" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f12_1" index="12" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f13_0" index="13" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f13_1" index="13" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f14_0" index="14" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f14_1" index="14" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f15_0" index="15" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f15_1" index="15" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f16_0" index="16" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f16_1" index="16" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f17_0" index="17" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f17_1" index="17" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f18_0" index="18" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f18_1" index="18" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f19_0" index="19" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f19_1" index="19" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f20_0" index="20" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f20_1" index="20" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f21_0" index="21" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f21_1" index="21" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f22_0" index="22" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f22_1" index="22" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f23_0" index="23" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f23_1" index="23" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f24_0" index="24" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f24_1" index="24" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f25_0" index="25" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f25_1" index="25" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f26_0" index="26" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f26_1" index="26" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f27_0" index="27" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f27_1" index="27" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f28_0" index="28" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f28_1" index="28" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f29_0" index="29" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f29_1" index="29" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f30_0" index="30" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f30_1" index="30" size="64" type="FPR" sub_index="1"/>
+    <physical_register name="f31_0" index="31" size="64" type="FPR" sub_index="0"/>
+    <physical_register name="f31_1" index="31" size="64" type="FPR" sub_index="1"/>
+  </physical_registers>
+  <register_file name="RISC-V Registers">
+    <register name="S1" index="1" size="32" type="FPR" boot="0x0">
+      <register_field name="S1" physical_register="f1_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S2" index="2" size="32" type="FPR" boot="0x0">
+      <register_field name="S2" physical_register="f2_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S3" index="3" size="32" type="FPR" boot="0x0">
+      <register_field name="S3" physical_register="f3_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S4" index="4" size="32" type="FPR" boot="0x0">
+      <register_field name="S4" physical_register="f4_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S5" index="5" size="32" type="FPR" boot="0x0">
+      <register_field name="S5" physical_register="f5_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S6" index="6" size="32" type="FPR" boot="0x0">
+      <register_field name="S6" physical_register="f6_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S7" index="7" size="32" type="FPR" boot="0x0">
+      <register_field name="S7" physical_register="f7_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S8" index="8" size="32" type="FPR" boot="0x0">
+      <register_field name="S8" physical_register="f8_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S9" index="9" size="32" type="FPR" boot="0x0">
+      <register_field name="S9" physical_register="f9_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S10" index="10" size="32" type="FPR" boot="0x0">
+      <register_field name="S10" physical_register="f10_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S11" index="11" size="32" type="FPR" boot="0x0">
+      <register_field name="S11" physical_register="f11_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S12" index="12" size="32" type="FPR" boot="0x0">
+      <register_field name="S12" physical_register="f12_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S13" index="13" size="32" type="FPR" boot="0x0">
+      <register_field name="S13" physical_register="f13_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S14" index="14" size="32" type="FPR" boot="0x0">
+      <register_field name="S14" physical_register="f14_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S15" index="15" size="32" type="FPR" boot="0x0">
+      <register_field name="S15" physical_register="f15_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S16" index="16" size="32" type="FPR" boot="0x0">
+      <register_field name="S16" physical_register="f16_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S17" index="17" size="32" type="FPR" boot="0x0">
+      <register_field name="S17" physical_register="f17_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S18" index="18" size="32" type="FPR" boot="0x0">
+      <register_field name="S18" physical_register="f18_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S19" index="19" size="32" type="FPR" boot="0x0">
+      <register_field name="S19" physical_register="f19_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S20" index="20" size="32" type="FPR" boot="0x0">
+      <register_field name="S20" physical_register="f20_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S21" index="21" size="32" type="FPR" boot="0x0">
+      <register_field name="S21" physical_register="f21_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S22" index="22" size="32" type="FPR" boot="0x0">
+      <register_field name="S22" physical_register="f22_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S23" index="23" size="32" type="FPR" boot="0x0">
+      <register_field name="S23" physical_register="f23_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S24" index="24" size="32" type="FPR" boot="0x0">
+      <register_field name="S24" physical_register="f24_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S25" index="25" size="32" type="FPR" boot="0x0">
+      <register_field name="S25" physical_register="f25_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S26" index="26" size="32" type="FPR" boot="0x0">
+      <register_field name="S26" physical_register="f26_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S27" index="27" size="32" type="FPR" boot="0x0">
+      <register_field name="S27" physical_register="f27_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S28" index="28" size="32" type="FPR" boot="0x0">
+      <register_field name="S28" physical_register="f28_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S29" index="29" size="32" type="FPR" boot="0x0">
+      <register_field name="S29" physical_register="f29_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S30" index="30" size="32" type="FPR" boot="0x0">
+      <register_field name="S30" physical_register="f30_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="S31" index="31" size="32" type="FPR" boot="0x0">
+      <register_field name="S31" physical_register="f31_0" size="32">
+        <bit_field shift="0" size="32"/>
+      </register_field>
+    </register>
+    <register name="D0" index="0" size="64" type="FPR" boot="0x3000">
+      <register_field name="D0" physical_register="f0_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D1" index="1" size="64" type="FPR" boot="0x3000">
+      <register_field name="D1" physical_register="f1_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D2" index="2" size="64" type="FPR" boot="0x3000">
+      <register_field name="D2" physical_register="f2_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D3" index="3" size="64" type="FPR" boot="0x3000">
+      <register_field name="D3" physical_register="f3_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D4" index="4" size="64" type="FPR" boot="0x3000">
+      <register_field name="D4" physical_register="f4_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D5" index="5" size="64" type="FPR" boot="0x3000">
+      <register_field name="D5" physical_register="f5_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D6" index="6" size="64" type="FPR" boot="0x3000">
+      <register_field name="D6" physical_register="f6_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D7" index="7" size="64" type="FPR" boot="0x3000">
+      <register_field name="D7" physical_register="f7_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D8" index="8" size="64" type="FPR" boot="0x3000">
+      <register_field name="D8" physical_register="f8_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D9" index="9" size="64" type="FPR" boot="0x3000">
+      <register_field name="D9" physical_register="f9_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D10" index="10" size="64" type="FPR" boot="0x3000">
+      <register_field name="D10" physical_register="f10_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D11" index="11" size="64" type="FPR" boot="0x3000">
+      <register_field name="D11" physical_register="f11_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D12" index="12" size="64" type="FPR" boot="0x3000">
+      <register_field name="D12" physical_register="f12_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D13" index="13" size="64" type="FPR" boot="0x3000">
+      <register_field name="D13" physical_register="f13_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D14" index="14" size="64" type="FPR" boot="0x3000">
+      <register_field name="D14" physical_register="f14_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D15" index="15" size="64" type="FPR" boot="0x3000">
+      <register_field name="D15" physical_register="f15_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D16" index="16" size="64" type="FPR" boot="0x3000">
+      <register_field name="D16" physical_register="f16_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D17" index="17" size="64" type="FPR" boot="0x3000">
+      <register_field name="D17" physical_register="f17_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D18" index="18" size="64" type="FPR" boot="0x3000">
+      <register_field name="D18" physical_register="f18_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D19" index="19" size="64" type="FPR" boot="0x3000">
+      <register_field name="D19" physical_register="f19_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D20" index="20" size="64" type="FPR" boot="0x3000">
+      <register_field name="D20" physical_register="f20_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D21" index="21" size="64" type="FPR" boot="0x3000">
+      <register_field name="D21" physical_register="f21_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D22" index="22" size="64" type="FPR" boot="0x3000">
+      <register_field name="D22" physical_register="f22_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D23" index="23" size="64" type="FPR" boot="0x3000">
+      <register_field name="D23" physical_register="f23_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D24" index="24" size="64" type="FPR" boot="0x3000">
+      <register_field name="D24" physical_register="f24_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D25" index="25" size="64" type="FPR" boot="0x3000">
+      <register_field name="D25" physical_register="f25_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D26" index="26" size="64" type="FPR" boot="0x3000">
+      <register_field name="D26" physical_register="f26_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D27" index="27" size="64" type="FPR" boot="0x3000">
+      <register_field name="D27" physical_register="f27_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D28" index="28" size="64" type="FPR" boot="0x3000">
+      <register_field name="D28" physical_register="f28_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D29" index="29" size="64" type="FPR" boot="0x3000">
+      <register_field name="D29" physical_register="f29_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D30" index="30" size="64" type="FPR" boot="0x3000">
+      <register_field name="D30" physical_register="f30_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="D31" index="31" size="64" type="FPR" boot="0x3000">
+      <register_field name="D31" physical_register="f31_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q0" index="0" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q0_0" physical_register="f0_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q0_1" physical_register="f0_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q1" index="1" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q1_0" physical_register="f1_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q1_1" physical_register="f1_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q2" index="2" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q2_0" physical_register="f2_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q2_1" physical_register="f2_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q3" index="3" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q3_0" physical_register="f3_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q3_1" physical_register="f3_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q4" index="4" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q4_0" physical_register="f4_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q4_1" physical_register="f4_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q5" index="5" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q5_0" physical_register="f5_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q5_1" physical_register="f5_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q6" index="6" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q6_0" physical_register="f6_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q6_1" physical_register="f6_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q7" index="7" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q7_0" physical_register="f7_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q7_1" physical_register="f7_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q8" index="8" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q8_0" physical_register="f8_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q8_1" physical_register="f8_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q9" index="9" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q9_0" physical_register="f9_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q9_1" physical_register="f9_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q10" index="10" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q10_0" physical_register="f10_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q10_1" physical_register="f10_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q11" index="11" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q11_0" physical_register="f11_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q11_1" physical_register="f11_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q12" index="12" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q12_0" physical_register="f12_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q12_1" physical_register="f12_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q13" index="13" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q13_0" physical_register="f13_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q13_1" physical_register="f13_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q14" index="14" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q14_0" physical_register="f14_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q14_1" physical_register="f14_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q15" index="15" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q15_0" physical_register="f15_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q15_1" physical_register="f15_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q16" index="16" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q16_0" physical_register="f16_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q16_1" physical_register="f16_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q17" index="17" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q17_0" physical_register="f17_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q17_1" physical_register="f17_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q18" index="18" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q18_0" physical_register="f18_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q18_1" physical_register="f18_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q19" index="19" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q19_0" physical_register="f19_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q19_1" physical_register="f19_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q20" index="20" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q20_0" physical_register="f20_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q20_1" physical_register="f20_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q21" index="21" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q21_0" physical_register="f21_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q21_1" physical_register="f21_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q22" index="22" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q22_0" physical_register="f22_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q22_1" physical_register="f22_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q23" index="23" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q23_0" physical_register="f23_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q23_1" physical_register="f23_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q24" index="24" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q24_0" physical_register="f24_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q24_1" physical_register="f24_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q25" index="25" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q25_0" physical_register="f25_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q25_1" physical_register="f25_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q26" index="26" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q26_0" physical_register="f26_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q26_1" physical_register="f26_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q27" index="27" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q27_0" physical_register="f27_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q27_1" physical_register="f27_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q28" index="28" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q28_0" physical_register="f28_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q28_1" physical_register="f28_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q29" index="29" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q29_0" physical_register="f29_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q29_1" physical_register="f29_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q30" index="30" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q30_0" physical_register="f30_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q30_1" physical_register="f30_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="Q31" index="31" size="128" type="FPR" boot="0x0" class="LargeRegister">
+      <register_field name="Q31_0" physical_register="f31_0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+      <register_field name="Q31_1" physical_register="f31_1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+  </register_file>
+</registers>

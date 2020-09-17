@@ -1,0 +1,18 @@
+Cpu 0 1 ----
+Cpu 0 PC(VA) 0x0000000080011000 op: 0x0000000001ea89b3 : add     x19, x21, x30
+Cpu 0 Reg R x21 val 0xb48eb161f8a7ac1b mask 0xffffffffffffffff
+Cpu 0 Reg R x30 val 0xf7ca2ba47f9ae57e mask 0xffffffffffffffff
+Cpu 0 Reg W x19 val 0xac58dd0678429199 mask 0xffffffffffffffff
+Cpu 0 Reg W PC val 0x0000000080011004 mask 0xffffffffffffffff
+Cpu 0 2 ----
+Cpu 0 PC(VA) 0x0000000080011004 op: 0x0000000040a45c33 : sra     x24, x8, x10
+Cpu 0 Reg R x8 val 0x34d177389469e2a4 mask 0xffffffffffffffff
+Cpu 0 Reg R x10 val 0xdb0f8b1d2a889323 mask 0xffffffffffffffff
+Cpu 0 Reg W x24 val 0x00000000069a2ee7 mask 0xffffffffffffffff
+Cpu 0 Reg W PC val 0x0000000080011008 mask 0xffffffffffffffff
+Cpu 0 3 ----
+Cpu 0 PC(VA) 0x0000000080011008 op: 0x000000000000006f : j       pc + 0x0
+Cpu 0 Reg W x0 val 0x000000008001100c mask 0xffffffffffffffff
+Cpu 0 Reg W PC val 0x0000000080011008 mask 0xffffffffffffffff
+Cpu 0 executed 3 instructions.
+Executed 3 instructions, exit status (SUCCESS)

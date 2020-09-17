@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) [2020] Futurewei Technologies, Inc.
+
+ FORCE-RISCV is licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+ THIS SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO NON-INFRINGEMENT, MERCHANTABILITY OR
+ FIT FOR A PARTICULAR PURPOSE.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<registers>
+  <physical_registers>
+    <physical_register name="x1" index="1" size="64" type="GPR"/>
+    <physical_register name="x2" index="2" size="64" type="GPR"/>
+    <physical_register name="x3" index="3" size="64" type="GPR"/>
+    <physical_register name="x4" index="4" size="64" type="GPR"/>
+    <physical_register name="x5" index="5" size="64" type="GPR"/>
+    <physical_register name="x6" index="6" size="64" type="GPR"/>
+    <physical_register name="x7" index="7" size="64" type="GPR"/>
+    <physical_register name="x8" index="8" size="64" type="GPR"/>
+    <physical_register name="x9" index="9" size="64" type="GPR"/>
+    <physical_register name="x10" index="10" size="64" type="GPR"/>
+    <physical_register name="x11" index="11" size="64" type="GPR"/>
+    <physical_register name="x12" index="12" size="64" type="GPR"/>
+    <physical_register name="x13" index="13" size="64" type="GPR"/>
+    <physical_register name="x14" index="14" size="64" type="GPR"/>
+    <physical_register name="x15" index="15" size="64" type="GPR"/>
+    <physical_register name="x16" index="16" size="64" type="GPR"/>
+    <physical_register name="x17" index="17" size="64" type="GPR"/>
+    <physical_register name="x18" index="18" size="64" type="GPR"/>
+    <physical_register name="x19" index="19" size="64" type="GPR"/>
+    <physical_register name="x20" index="20" size="64" type="GPR"/>
+    <physical_register name="x21" index="21" size="64" type="GPR"/>
+    <physical_register name="x22" index="22" size="64" type="GPR"/>
+    <physical_register name="x23" index="23" size="64" type="GPR"/>
+    <physical_register name="x24" index="24" size="64" type="GPR"/>
+    <physical_register name="x25" index="25" size="64" type="GPR"/>
+    <physical_register name="x26" index="26" size="64" type="GPR"/>
+    <physical_register name="x27" index="27" size="64" type="GPR"/>
+    <physical_register name="x28" index="28" size="64" type="GPR"/>
+    <physical_register name="x29" index="29" size="64" type="GPR"/>
+    <physical_register name="x30" index="30" size="64" type="GPR"/>
+    <physical_register name="x31" index="31" size="64" type="GPR"/>
+    <physical_register name="x0" index="0" size="64" type="GPR" class="PhysicalRegisterRazwi" reset="0"/>
+    <physical_register name="PC" index="32" size="64" type="PC"/>    
+  </physical_registers>
+  <register_file name="RISC-V Registers">
+    <register name="x1" index="1" size="64" type="GPR" boot="0x1000">
+      <register_field name="x1" physical_register="x1" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x2" index="2" size="64" type="GPR" boot="0x1000">
+      <register_field name="x2" physical_register="x2" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x3" index="3" size="64" type="GPR" boot="0x1000">
+      <register_field name="x3" physical_register="x3" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x4" index="4" size="64" type="GPR" boot="0x1000">
+      <register_field name="x4" physical_register="x4" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x5" index="5" size="64" type="GPR" boot="0x1000">
+      <register_field name="x5" physical_register="x5" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x6" index="6" size="64" type="GPR" boot="0x1000">
+      <register_field name="x6" physical_register="x6" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x7" index="7" size="64" type="GPR" boot="0x1000">
+      <register_field name="x7" physical_register="x7" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x8" index="8" size="64" type="GPR" boot="0x1000">
+      <register_field name="x8" physical_register="x8" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x9" index="9" size="64" type="GPR" boot="0x1000">
+      <register_field name="x9" physical_register="x9" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x10" index="10" size="64" type="GPR" boot="0x1000">
+      <register_field name="x10" physical_register="x10" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x11" index="11" size="64" type="GPR" boot="0x1000">
+      <register_field name="x11" physical_register="x11" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x12" index="12" size="64" type="GPR" boot="0x1000">
+      <register_field name="x12" physical_register="x12" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x13" index="13" size="64" type="GPR" boot="0x1000">
+      <register_field name="x13" physical_register="x13" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x14" index="14" size="64" type="GPR" boot="0x1000">
+      <register_field name="x14" physical_register="x14" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x15" index="15" size="64" type="GPR" boot="0x1000">
+      <register_field name="x15" physical_register="x15" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x16" index="16" size="64" type="GPR" boot="0x1000">
+      <register_field name="x16" physical_register="x16" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x17" index="17" size="64" type="GPR" boot="0x1000">
+      <register_field name="x17" physical_register="x17" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x18" index="18" size="64" type="GPR" boot="0x1000">
+      <register_field name="x18" physical_register="x18" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x19" index="19" size="64" type="GPR" boot="0x1000">
+      <register_field name="x19" physical_register="x19" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x20" index="20" size="64" type="GPR" boot="0x1000">
+      <register_field name="x20" physical_register="x20" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x21" index="21" size="64" type="GPR" boot="0x1000">
+      <register_field name="x21" physical_register="x21" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x22" index="22" size="64" type="GPR" boot="0x1000">
+      <register_field name="x22" physical_register="x22" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x23" index="23" size="64" type="GPR" boot="0x1000">
+      <register_field name="x23" physical_register="x23" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x24" index="24" size="64" type="GPR" boot="0x1000">
+      <register_field name="x24" physical_register="x24" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x25" index="25" size="64" type="GPR" boot="0x1000">
+      <register_field name="x25" physical_register="x25" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x26" index="26" size="64" type="GPR" boot="0x1000">
+      <register_field name="x26" physical_register="x26" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x27" index="27" size="64" type="GPR" boot="0x1000">
+      <register_field name="x27" physical_register="x27" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x28" index="28" size="64" type="GPR" boot="0x1000">
+      <register_field name="x28" physical_register="x28" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x29" index="29" size="64" type="GPR" boot="0x1000">
+      <register_field name="x29" physical_register="x29" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x30" index="30" size="64" type="GPR" boot="0x1000">
+      <register_field name="x30" physical_register="x30" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x31" index="31" size="64" type="GPR" boot="0x1000">
+      <register_field name="x31" physical_register="x31" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="x0" index="0" size="64" type="ZR" boot="0x0" class="ReadOnlyZeroRegister">
+      <register_field name="x0" physical_register="x0" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    <register name="PC" index="32" size="64" type="PC" boot="0x0">
+      <register_field name="PC" physical_register="PC" size="64">
+        <bit_field shift="0" size="64"/>
+      </register_field>
+    </register>
+    </register_file>
+</registers>
