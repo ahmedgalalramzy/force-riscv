@@ -16,6 +16,7 @@
 INSTR_BUILDER=./instruction_builder.py
 GVIMDIFF=/usr/bin/gvimdiff
 INSTALL_DIR=../../../../riscv/arch_data
+INSTALL_DIR_RV32=../../../../riscv/arch_data_rv32
 
 .PHONY: all
 all:
@@ -65,8 +66,8 @@ install:
 	@cp -f output/supported_f_instructions.xml $(INSTALL_DIR)/f_instructions.xml
 	@cp -f output/supported_d_instructions.xml $(INSTALL_DIR)/d_instructions.xml
 	@cp -f output/supported_q_instructions.xml $(INSTALL_DIR)/q_instructions.xml
-	@cp -f output/supported_rv32i_instructions.xml $(INSTALL_DIR)/../arch_data_rv32/rv32i_instructions.xml
-	@cp -f output/supported_rv32c_instructions.xml $(INSTALL_DIR)/../arch_data_rv32/rv32c_instructions.xml
+	@cp -f output/supported_rv32i_instructions.xml $(INSTALL_DIR_RV32)/rv32i_instructions.xml
+	@cp -f output/supported_rv32c_instructions.xml $(INSTALL_DIR_RV32)/rv32c_instructions.xml
 
 .PHONY: diff
 diff:

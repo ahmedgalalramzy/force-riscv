@@ -249,8 +249,8 @@ def insert_filename_prefix(aFilePath,aFilePrefix):
     return (aFilePath,edited_filepath)
 
 
-def build_registers(aXmlStarterFile='input/system_registers_starter_rv64.xml', aSystemRegistersFile='output/system_registers_rv64..xml',
-                    aSystemRegisterChoicesFile='output/system_register_choices_rv64..xml', aRegisterFieldChoicesFile='output/register_field_choices_rv64..xml',
+def build_registers(aXmlStarterFile='input/system_registers_starter_rv64.xml', aSystemRegistersFile='output/system_registers_rv64.xml',
+                    aSystemRegisterChoicesFile='output/system_register_choices_rv64.xml', aRegisterFieldChoicesFile='output/register_field_choices_rv64.xml',
                     aSize = '64', aModificationsScript=None):
 
     xml_starter_file             = aXmlStarterFile

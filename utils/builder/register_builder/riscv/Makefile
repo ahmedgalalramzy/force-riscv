@@ -15,6 +15,7 @@
 #
 REGISTER_BUILDER=./register_builder.py
 INSTALL_DIR=../../../../riscv/arch_data
+INSTALL_DIR_RV32=../../../../riscv/arch_data_rv32
 
 .PHONY: all
 all:
@@ -49,9 +50,12 @@ register_field_choices: $(REGISTER_BUILDER)
 .PHONY: install
 install:
 	@echo 'Building Registers: installing register files'
-	@cp -f output/system_registers.xml $(INSTALL_DIR)/system_registers.xml
-	@cp -f output/system_register_choices.xml $(INSTALL_DIR)/system_register_choices.xml
-	@cp -f output/register_field_choices.xml $(INSTALL_DIR)/register_field_choices.xml
+	@cp -f output/system_registers_rv64.xml $(INSTALL_DIR)/system_registers_rv64.xml
+	@cp -f output/system_register_choices_rv64.xml $(INSTALL_DIR)/system_register_choices_rv64.xml
+	@cp -f output/register_field_choices_rv64.xml $(INSTALL_DIR)/register_field_choices_rv64.xml
+	@cp -f output/system_registers_rv32.xml $(INSTALL_DIR_RV32)/system_registers_rv32.xml
+	@cp -f output/system_register_choices_rv32.xml $(INSTALL_DIR_RV32)/system_register_choices_rv32.xml
+	@cp -f output/register_field_choices_rv32.xml $(INSTALL_DIR_RV32)/register_field_choices_rv32.xml
 
 .PHONY: clean
 clean:
