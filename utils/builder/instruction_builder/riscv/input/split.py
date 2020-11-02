@@ -1,4 +1,4 @@
-from lxml import etree as ET
+import xml.etree.ElementTree as ET
 
 xml_header = '<?xml version="1.0" encoding="UTF-8"?>'
 license_string = '''
@@ -29,16 +29,15 @@ def split_file(src_instr_file, dst_dict):
 
     instrs = src_instr_file_parsed.getroot()
         
-    for dst in dst_dict:
+    for dst, extensions in dst_dict.items():
         dst_file = open(dst, 'wb+')
-        extensions = dst_dict[dst]
         dst_file.write(xml_header.encode())
         dst_file.write(license_string.encode())
         dst_file.write(startRootTag.encode())
 
         for instr in instrs:
             if instr.attrib['extension'] in extensions:
-                dst_file.write(ET.tostring(instr, pretty_print=True))
+                dst_file.write(ET.tostring(instr))
 
         dst_file.write(endRootTag.encode())
         dst_file.close()
